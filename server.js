@@ -27,6 +27,7 @@ app.use("/api/preguntas", require("./Routes/PreguntaRoutes"));
 app.use("/api/contactos", require("./Routes/ContactoRoutes"));
 app.use("/api/informaciones", require("./Routes/InformacionRoutes"));
 ///agregacion de la parte de productos
+//lol xD
 app.use("/api/productos", require("./routes/ProductoRoutes"));
 app.use("/api/usuarios", UsuarioRoutes);
 app.use("/api/terrario", TerrarioRoutes); // Ahora está correctamente importado
